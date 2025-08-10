@@ -1,0 +1,8 @@
+P1001:
+Rank of the preprocessed EEG set: 119
+606697 data points in the preprocessed EEG set.
+7.9% of data rejected by preprocessing.
+P1004:
+Rank of the preprocessed EEG set: 94
+646317 data points in the preprocessed EEG set.
+8.1% of data rejected by preprocessing.

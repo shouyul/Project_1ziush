@@ -1,0 +1,50 @@
+1. Avec Objet		2. Avec Objet		3. Sans Objet
+4. Sans Objet		5. Sans Objet		6. Sans Objet
+7. Sans Objet		8. Avec Objet		9. Avec Objet
+10. Avec Objet		PAUSE
+
+11. Sans Objet		12. Sans Objet		13. Sans Objet
+14. Avec Objet		15. Avec Objet		16. Sans Objet
+17. Sans Objet		18. Avec Objet		19. Avec Objet
+20. Avec Objet		PAUSE
+
+21. Sans Objet		22. Sans Objet		23. Avec Objet
+24. Sans Objet		25. Sans Objet		26. Sans Objet
+27. Avec Objet		28. Avec Objet		29. Avec Objet
+30. Avec Objet		PAUSE
+
+31. Avec Objet		32. Avec Objet		33. Avec Objet
+34. Avec Objet		35. Avec Objet		36. Sans Objet
+37. Sans Objet		38. Sans Objet		39. Sans Objet
+40. Sans Objet		PAUSE
+
+41. Sans Objet		42. Avec Objet		43. Sans Objet
+44. Sans Objet		45. Sans Objet		46. Sans Objet
+47. Avec Objet		48. Avec Objet		49. Avec Objet
+50. Avec Objet		PAUSE
+
+51. Avec Objet		52. Avec Objet		53. Sans Objet
+54. Sans Objet		55. Avec Objet		56. Avec Objet
+57. Sans Objet		58. Avec Objet		59. Sans Objet
+60. Sans Objet		PAUSE
+
+61. Avec Objet		62. Sans Objet		63. Avec Objet
+64. Sans Objet		65. Avec Objet		66. Avec Objet
+67. Sans Objet		68. Sans Objet		69. Avec Objet
+70. Sans Objet		PAUSE
+
+71. Avec Objet		72. Sans Objet		73. Sans Objet
+74. Sans Objet		75. Avec Objet		76. Sans Objet
+77. Sans Objet		78. Avec Objet		79. Avec Objet
+80. Avec Objet		PAUSE
+
+81. Avec Objet		82. Sans Objet		83. Avec Objet
+84. Sans Objet		85. Sans Objet		86. Sans Objet
+87. Avec Objet		88. Avec Objet		89. Avec Objet
+90. Sans Objet		PAUSE
+
+91. Sans Objet		92. Avec Objet		93. Avec Objet
+94. Sans Objet		95. Sans Objet		96. Avec Objet
+97. Avec Objet		98. Sans Objet		99. Avec Objet
+100. Sans Objet		PAUSE
+

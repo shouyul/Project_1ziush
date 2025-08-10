@@ -1,0 +1,274 @@
+clear all;
+config_PIONEER_Tumbler;
+
+%%%%% Configurations for 'amp':
+% study_config.class.contrast = 'TrialType';
+% study_config.feat.folderName = 'frontalChans-allTimes';
+% study_config.feat.chans = {'F1','Fz','F2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'occChans-allTimes';
+% study_config.feat.chans = {'O1','Oz','O2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'parietalChans-allTimes';
+% study_config.feat.chans = {'CP1','CPz','CP2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'leftTempChans-allTimes';
+% study_config.feat.chans = {'FT7','T7','TP7'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'rightTempChans-allTimes';
+% study_config.feat.chans = {'FT8','T8','TP8'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.class.contrast = 'Answer';
+% 
+% study_config.feat.folderName = 'frontalChans-allTimes';
+% study_config.feat.chans = {'F1','Fz','F2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'occChans-allTimes';
+% study_config.feat.chans = {'O1','Oz','O2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'parietalChans-allTimes';
+% study_config.feat.chans = {'CP1','CPz','CP2'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'leftTempChans-allTimes';
+% study_config.feat.chans = {'FT7','T7','TP7'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'rightTempChans-allTimes';
+% study_config.feat.chans = {'FT8','T8','TP8'}; % 'all' or cell of channels
+% study_config.feat.times = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+%%%%% Configurations for 'psd':
+study_config.feat.folderName = 'allChans-allFreqs'; % Name for distinguishing analyses by folders
+study_config.feat.chans = 'all'; % 'all' or cell of channels
+study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+ 
+runClassifier;
+PlotSummaryClassifierResults;
+
+% study_config.feat.folderName = 'allChans-alpha';
+% study_config.feat.freqs = [8,14]; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+%study_config.feat.folderName = 'allChans-beta';
+%study_config.feat.freqs = [15,30]; % 'all' or range [min, max] or vector
+
+%runClassifier;
+%PlotSummaryClassifierResults;
+
+study_config.feat.folderName = 'occChans-allFreqs';
+study_config.feat.chans = {'O1','Oz','O2'}; % 'all' or cell of channels
+study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+  
+runClassifier;
+PlotSummaryClassifierResults;
+
+% study_config.feat.folderName = 'parietChans-allFreqs';
+% study_config.feat.chans = {'P1','Pz','P2'}; % 'all' or cell of channels
+% study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+%  
+% runClassifier;
+% PlotSummaryClassifierResults;
+% 
+% study_config.feat.folderName = 'centralChans-allFreqs';
+% study_config.feat.chans = {'C1','Cz','C2'}; % 'all' or cell of channels
+% study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+%  
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+study_config.feat.folderName = 'occChans-alpha';
+study_config.feat.chans = {'O1','Oz','O2'}; % 'all' or cell of channels
+study_config.feat.freqs = [8,14]; % 'all' or range [min, max] or vector
+
+runClassifier;
+PlotSummaryClassifierResults;
+ 
+study_config.feat.folderName = 'Frontal-allFreqs';
+study_config.feat.chans = {'F1','Fz','F2'}; % 'all' or cell of channels
+study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+
+runClassifier;
+PlotSummaryClassifierResults;
+
+% study_config.feat.folderName = 'Frontal-allFreqs';
+% study_config.feat.chans = {'L5Z','Z5Z','R5Z','L6Z','Z6Z','R6Z'}; % 'all' or cell of channels
+% study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+% study_config.feat.folderName = 'occChansExt-allFreqs';
+% study_config.feat.chans = {'Z16Z', 'Z17Z', 'Z18Z', 'Z19Z', 'Z20Z',...
+%     'Z16L', 'Z17L', 'Z18L', 'Z19L',...
+%     'L17Z', 'L18Z', 'L19Z', 'L20Z', 'L17L', 'L18L', 'L19L',...
+%     'Z16R', 'Z17R', 'Z18R', 'Z19R',...
+%     'R17Z', 'R18Z', 'R19Z', 'R20Z', 'R17R', 'R18R', 'R19R'}; % 'all' or cell of channels
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+% study_config.feat.folderName = 'occChansExt-alpha';
+% study_config.feat.freqs = [8,14]; % 'all' or range [min, max] or vector
+% 
+% runClassifier;
+% PlotSummaryClassifierResults;
+
+%config_PIONEER_VEP;
+% study_config.feat.folderName = 'occChansExt-alpha';
+% study_config.feat.chans = {'Z16Z', 'Z17Z', 'Z18Z', 'Z19Z', 'Z20Z',...
+%     'Z16L', 'Z17L', 'Z18L', 'Z19L',...
+%     'L16Z', 'L17Z', 'L18Z', 'L19Z', 'L20Z',...
+%     'L16L', 'L17L', 'L18L', 'L19L',...
+%     'Z16R', 'Z17R', 'Z18R', 'Z19R',...
+%     'R16Z', 'R17Z', 'R18Z', 'R19Z', 'R20Z',...
+%     'R16R', 'R17R', 'R18R', 'R19R'}; % 'all' or cell of channels
+% study_config.feat.freqs = [8,14]; % 'all' or range [min, max] or vector
+% 
+% runClassifier_VEP;
+ 
+% study_config.class.contrast = 'AllvsControl';
+% 
+% study_config.epochs.limits_wdw = [0,10]; % in seconds
+% study_config.feat.folderName = 'occChansExt2-allFreqs';
+% study_config.feat.chans = {...   
+%     'L15L', 'L16L', 'L17L', 'L18L', 'L19L',...
+%     'L15Z', 'L16Z', 'L17Z', 'L18Z', 'L19Z', 'L20Z',...
+%     'Z15L', 'Z16L', 'Z17L', 'Z18L', 'Z19L',...
+%     'Z15Z', 'Z16Z', 'Z17Z', 'Z18Z', 'Z19Z', 'Z20Z',...
+%     'Z15R', 'Z16R', 'Z17R', 'Z18R', 'Z19R',...
+%     'R15Z', 'R16Z', 'R17Z', 'R18Z', 'R19Z', 'R20Z',...
+%     'R15R', 'R16R', 'R17R', 'R18R', 'R19R'}; % 'all' or cell of channels
+% study_config.feat.freqs = 'all'; % 'all' or range [min, max] or vector
+% runClassifier_VEP; 
+%PlotSummaryClassifierResultsVEP;
+
+% study_config.epochs.limits_wdw = [0,30]; % in seconds
+% study_config.psd.overlap = 0.8*study_config.psd.window;
+% study_config.psd.chunks = 0; % Divide epoch data in chunks (multiple chunks for one trial)
+% study_config.class.nbfolds = 'loo'; % Number of folds for the cross-validation analysis.
+% %study_config.class.nbfolds = 60; % Number of folds for the cross-validation analysis.
+% %study_config.class.feat2test = 1:10; % vector of best features to test
+% %study_config.class.feat2test = [1,5,10,15,20,25]; % vector of best features to test
+% %study_config.class.feat2test = [1,50,75,100,125,150]; % vector of best features to test
+% %study_config.class.feat2test = [50,60,70,80,90,100,110,120]; % vector of best features to test
+% %study_config.class.feat2test = 1:2; % vector of best features to test
+% %study_config.class.feat2test = 1:6; % for 6-way
+% study_config.class.feat2test = [1:20];
+% 
+% %createPSDForClassifier_VEP;
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% for t1 = 0:5:30
+%     for t2 = 0:5:30
+%         if t1 >= t2
+%             continue
+%         elseif t1 == 0 || t2 == 30 || t2-t1 == 5
+%             continue
+%         end
+%         study_config.epochs.limits_wdw = [t1,t2]; % in seconds
+%         EpochsDefinition_PIONEER_VEP;
+%         createPSDForClassifier_VEP;
+%         runClassifier_VEP;
+%         PlotSummaryClassifierResultsVEP;
+%     end
+% end
+% 
+% study_config.class.nbfolds = 'loo_tr';
+% study_config.epochs.limits_wdw = [0,30]; % in seconds
+% study_config.psd.chunks = 5; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:12; % vector of best features to test
+% %study_config.class.feat2test = 1:36; % for 6-way
+% study_config.class.feat2test = [20:20:120]; % vector of best features to test
+% 
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% study_config.epochs.limits_wdw = [5,30]; % in seconds
+% study_config.psd.chunks = 5; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:10; % vector of best features to test
+% %study_config.class.feat2test = 1:30; % for 6-way
+% study_config.class.feat2test = [1,10:10:100]; % vector of best features to test
+% 
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% study_config.epochs.limits_wdw = [0,30]; % in seconds
+% study_config.psd.chunks = 2.5; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:24; % vector of best features to test
+% %study_config.class.feat2test = 1:72; % for 6-way
+% study_config.class.feat2test = [50:50:250]; % vector of best features to test
+% 
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% study_config.epochs.limits_wdw = [5,30]; % in seconds
+% study_config.psd.chunks = 2.5; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:20; % vector of best features to test
+% %study_config.class.feat2test = 1:60; % for 6-way
+% study_config.class.feat2test = [50:50:200]; % vector of best features to test
+% 
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% study_config.epochs.limits_wdw = [0,30]; % in seconds
+% study_config.psd.chunks = 1.25; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:48; % vector of best features to test
+% %study_config.class.feat2test = 1:144; % for 6-way
+% %study_config.class.nbfolds = 240; % Number of folds for the cross-validation analysis.
+% study_config.class.feat2test = [50:50:500]; % vector of best features to test
+% 
+% %createPSDForClassifier_VEP;
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
+% 
+% study_config.epochs.limits_wdw = [5,30]; % in seconds
+% study_config.psd.chunks = 1.25; % Divide epoch data in chunks (multiple chunks for one trial)
+% %study_config.class.feat2test = 1:40; % vector of best features to test
+% %study_config.class.feat2test = 1:120; % for 6-way
+% %study_config.class.nbfolds = 200; % Number of folds for the cross-validation analysis.
+% study_config.class.feat2test = [25:25:400]; % vector of best features to test
+% 
+% %createPSDForClassifier_VEP;
+% %runClassifier_VEP;
+% %PlotSummaryClassifierResultsVEP;
